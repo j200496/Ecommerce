@@ -1,0 +1,27 @@
+<app-header></app-header>
+<main class="bg-dark">
+     <section class="start">
+        <div class="contenedor-texto" style="background-image: url('/Images/rest.jpg');">
+          <div class="row justify-content-end">
+            <div class="col-12">         
+                <h2 style="color: rgb(20, 16, 16);">
+                  DEMO            
+                </h2>
+            </div>
+          </div>
+        </div>
+     </section>
+     <section class="categorias" id="menu">
+         <div class="row justify-content-center">
+             <div class="col-2">
+                <h3 class="text-warning fst-italic mt-3">Menu</h3>
+             </div>
+         </div>
+         <div class="container">
+            <app-categories></app-categories>
+         </div>
+     </section>
+</main>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+

@@ -1,0 +1,6 @@
+<div class="card bg-dark mt-3" *ngFor="let c of categorias">
+     <img class="card-img-top rounded-5" routerLink="{{c.ruta}}" [src]="c.imagen" alt="">
+    <div class="card-body bg-dark">
+        <h5 class="card-title text-warning">{{c.nombre}}</h5>
+    </div>
+</div>

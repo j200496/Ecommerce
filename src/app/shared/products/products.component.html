@@ -1,0 +1,24 @@
+
+<div class="row justify-content-center">
+    <div class="col-5 text-warning fst-italic mt-3">
+        <h1>{{titulo}}</h1>
+    </div>
+    <div class="container">
+        <div class="card bg-dark text-warning" *ngFor="let p of productos">
+            <img class="card-img-top rounded-5" [src]="p.imagen" alt="">
+        <div class="card-body">
+            <h2>{{p.nombre}}</h2>
+            <p>Ingredientes: {{p.descripcion}}</p>
+            <label for="cantidad">Cantidad</label>
+            <input class="form form-control" value="{{p.cantidad}}" type="number" name="" id="cantidad">
+            <div class="col-6 d-flex gap-2">
+                    <button class="btn btn-danger mt-2" (click)="Decrement(p)">-</button>
+                    <button class="btn btn-primary  mt-2" (click)="Increment(p)">+</button>
+                </div>  
+                <p class="mt-2">Precio: {{p.precio | currency}}</p> 
+                <a class="btn btn-warning w-100 rounded-5" (click)="Agregar(p)"><i class="bi bi-plus-circle-fill fs-5"></i> Agregar</a>
+        </div>
+            </div>
+    </div>
+</div>
+
