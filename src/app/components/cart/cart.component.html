@@ -45,7 +45,9 @@
    </div>
    <div class="row justify-content-center">
     <div class="col-10">
-      <button class="btn btn-success w-100"><i class="bi bi-whatsapp"> Ordenar via WhatsApp</i></button>
+      <label class="text-white" for="direccion">Direccion</label>
+      <input type="text" class="form form-control" [(ngModel)]="Direccion" id="direccion" placeholder="Sector,calle,#casa">
+      <button class="btn btn-success w-100 mt-3" (click)="Ordenar()"><i class="bi bi-whatsapp"> Ordenar via WhatsApp</i></button>
     </div>
    </div>
 </div>
