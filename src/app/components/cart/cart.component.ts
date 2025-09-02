@@ -33,6 +33,10 @@ gettotal(): number{
 return this.productos.reduce((acc, p) => acc +(p.precio * p.cantidad),0);
 }
 Ordenar(){
+  if(!this.productos || this.productos.length === 0){
+    this.alertService.warning('No hay productos para ordenar!','Error','red');
+    return;
+  }
   Swal.fire({
     title:'Gracias por su compra!',
     text: 'Su orden se realizara por Whatsapp!',
@@ -47,6 +51,7 @@ Ordenar(){
   })
 }
 abrirWhatsApp() {
+
    const total = this.gettotal();
    const mensj = 'Total: ';
   const carrito = this.dataservice.getCart();
