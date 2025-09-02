@@ -11,13 +11,13 @@ export class DataService {
 return JSON.parse(localStorage.getItem(this.storagekey)|| '[]');
   }
 
-  AddProd(p: productos){
+  AddProd(pr: productos){
     let carrito = this.getCart();
-    const index = carrito.findIndex( p => p.id);
+    const index = carrito.findIndex( p => p.id === pr.id);
     if(index > 0){
-      carrito[index].cantidad += p.cantidad;
+      carrito[index].cantidad += pr.cantidad;
     }else{
-      carrito.push(p);
+      carrito.push(pr);
     }
     localStorage.setItem(this.storagekey,JSON.stringify(carrito));
   }

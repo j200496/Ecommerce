@@ -21,7 +21,7 @@ export const routes: Routes = [
         {path:'pizzas',component: PizzasComponent},
         {path:'ham',component:HamburguersComponent},
         {path:'bebidas',component:BebidasComponent},
-        {path:'mofongo',component:MofongosComponent},
+        {path:'mofongos',component:MofongosComponent},
         {path:'platos',component:PlatosComponent},
         {path:'carnes',component:CarnesComponent},
         {path:'yaroas',component:YaroasComponent}

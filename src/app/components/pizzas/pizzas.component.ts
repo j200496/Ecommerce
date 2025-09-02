@@ -3,6 +3,7 @@ import { HeaderComponent } from "../header/header.component";
 import { productos } from '../../Core/productos';
 import { CommonModule, CurrencyPipe } from '@angular/common';
 import { ProductsComponent } from "../../shared/products/products.component";
+import { encabezado } from '../../Core/encabezado';
 
 @Component({
   selector: 'app-pizzas',
@@ -11,6 +12,9 @@ import { ProductsComponent } from "../../shared/products/products.component";
   styleUrl: './pizzas.component.css'
 })
 export class PizzasComponent {
+  enc: encabezado[] = [
+    {about:'',contact:'',home:'Home',menu:''}
+  ]
 productos: productos[] =[
   {id:1,nombre:'Pizza',descripcion:'Mixta',cantidad:0,imagen:'/Images/pizzas/pizzajamomyq.jpg',precio:500},
   {id:2,nombre:'Pizza',descripcion:'Peperoni',cantidad:0,imagen:'/Images/pizzas/pizza test.jpg',precio: 400},
