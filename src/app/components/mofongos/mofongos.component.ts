@@ -11,7 +11,7 @@ import { HeaderComponent } from "../header/header.component";
 })
 export class MofongosComponent {
 productos:productos[] =[
-  {id:1,nombre:'Mofongo grande',descripcion:'Cerdo',cantidad:0,precio:500,imagen:'/Images/mofongo/mofongo/jpg'},
+  {id:1,nombre:'Mofongo grande',descripcion:'Cerdo',cantidad:0,precio:500,imagen:'/Images/mofongo/mofongo.jpg'},
   {id:2,nombre:'Mofongo pequeño',descripcion:'Camarones',cantidad:0,precio:450,imagen:'/Images/mofongo/mofcamarones.jpg'},
   {id:3,nombre:'Mofongo mediano',descripcion:'Mixto',cantidad:0,precio:550,imagen:'/Images/mofongo/mfngo.jpeg'}
 ]
