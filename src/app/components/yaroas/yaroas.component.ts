@@ -11,8 +11,8 @@ import { ProductsComponent } from "../../shared/products/products.component";
 })
 export class YaroasComponent {
 productos: productos[] = [
-    {id:1,nombre:'Yaroa',descripcion:'Mixta',cantidad:0,precio:250,imagen:'/Images/yaroas/yaroa.jpg'},
-  {id:2,nombre:'Yaroa',descripcion:'Grande',cantidad:0,precio:300,imagen:'/Images/yaroas/yaroamixta.jpg'},
-  {id:3,nombre:'Yaroa',descripcion:'Platano maduro',cantidad:0,precio:1500,imagen:'/Images/yaroas/yaroapla.webp'}
+    {id:13,nombre:'Yaroa',descripcion:'Mixta',cantidad:0,precio:250,imagen:'/Images/yaroas/yaroa.jpg'},
+  {id:14,nombre:'Yaroa',descripcion:'Grande',cantidad:0,precio:300,imagen:'/Images/yaroas/yaroamixta.jpg'},
+  {id:15,nombre:'Yaroa',descripcion:'Platano maduro',cantidad:0,precio:1500,imagen:'/Images/yaroas/yaroapla.webp'}
 ]
 }

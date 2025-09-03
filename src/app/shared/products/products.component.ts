@@ -21,6 +21,8 @@ if(prod.cantidad > 0){
   this.dataservice.AddProd({...prod});
   this.alerts.success('Producto agregado!','Producto agregado exitosamente!','green');
   prod.cantidad = 0;
+}else{
+  this.alerts.warning("Cantidad invalida",'Por favor ingrese una cantidad valida','red');
 }
 }
 Increment(p:productos){

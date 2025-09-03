@@ -11,8 +11,8 @@ import { ProductsComponent } from "../../shared/products/products.component";
 })
 export class CarnesComponent {
 productos: productos[] = [
-    {id:1,nombre:'Churrasco',descripcion:'1.5 lb',cantidad:0,precio:2000,imagen:'/Images/carnes/carne2.jfif'},
-  {id:2,nombre:'Parrillada',descripcion:'Familiar',cantidad:0,precio:2500,imagen:'/Images/carnes/carne1.jfif'},
-  {id:3,nombre:'Parrillada',descripcion:'Mixta',cantidad:0,precio:1500,imagen:'/Images/carnes/carne3.jfif'}
+    {id:16,nombre:'Churrasco',descripcion:'1.5 lb',cantidad:0,precio:2000,imagen:'/Images/carnes/carne2.jfif'},
+  {id:17,nombre:'Parrillada',descripcion:'Familiar',cantidad:0,precio:2500,imagen:'/Images/carnes/carne1.jfif'},
+  {id:18,nombre:'Parrillada',descripcion:'Mixta',cantidad:0,precio:1500,imagen:'/Images/carnes/carne3.jfif'}
 ]
 }

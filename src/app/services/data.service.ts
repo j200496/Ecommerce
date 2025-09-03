@@ -13,8 +13,8 @@ return JSON.parse(localStorage.getItem(this.storagekey)|| '[]');
 
   AddProd(pr: productos){
     let carrito = this.getCart();
-    const index = carrito.findIndex( p => p.id === pr.id);
-    if(index > 0){
+    const index = carrito.findIndex(p => p.id === pr.id);
+    if(index >= 0){
       carrito[index].cantidad += pr.cantidad;
     }else{
       carrito.push(pr);

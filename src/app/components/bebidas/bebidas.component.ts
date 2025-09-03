@@ -11,8 +11,8 @@ import { HeaderComponent } from '../header/header.component';
 })
 export class BebidasComponent {
 productos:productos[] =[
-  {id:1,nombre:'Jugo',descripcion:'Cereza',cantidad:0,precio:100,imagen:'/Images/bebidas/jugocrza.webp'},
-  {id:2,nombre:'Jugo',descripcion:'Naranja',cantidad:0,precio:80,imagen:'/Images/bebidas/jugonaranja.jpg'},
-  {id:3,nombre:'Jugo',descripcion:'Piña',cantidad:0,precio:85,imagen:'/Images/bebidas/jugopina.jpg'}
+  {id:19,nombre:'Jugo',descripcion:'Cereza',cantidad:0,precio:100,imagen:'/Images/bebidas/jugocrza.webp'},
+  {id:20,nombre:'Jugo',descripcion:'Naranja',cantidad:0,precio:80,imagen:'/Images/bebidas/jugonaranja.jpg'},
+  {id:21,nombre:'Jugo',descripcion:'Piña',cantidad:0,precio:85,imagen:'/Images/bebidas/jugopina.jpg'}
 ]
 }

@@ -1,6 +1,6 @@
 <app-header></app-header>
 <div class="row justify-content-center">
-    <div class="col-10 mt-3 text-warning">
+    <div class="col-10 col-lg-5 mt-3 text-warning">
     <h1>Productos seleccionados</h1>
     </div>
 </div>
@@ -45,6 +45,8 @@
    </div>
    <div class="row justify-content-center">
     <div class="col-10">
+      <label class="text-white" for="nombre">A nombre de:</label>
+      <input type="text" class="form form-control" [(ngModel)]="Nombre" id="nombre" placeholder="Nombre">
       <label class="text-white" for="direccion">Direccion</label>
       <input type="text" class="form form-control" [(ngModel)]="Direccion" id="direccion" placeholder="Sector,calle,#casa">
       <button class="btn btn-success w-100 mt-3" (click)="Ordenar()"><i class="bi bi-whatsapp"> Ordenar via WhatsApp</i></button>
